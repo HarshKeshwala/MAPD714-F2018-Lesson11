@@ -12,6 +12,8 @@
 		FF79643221A77DDA0031E6F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF79643021A77DDA0031E6F3 /* Main.storyboard */; };
 		FF79643421A77DDB0031E6F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF79643321A77DDB0031E6F3 /* Assets.xcassets */; };
 		FF79643721A77DDB0031E6F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF79643521A77DDB0031E6F3 /* LaunchScreen.storyboard */; };
+		FF79643F21A77F790031E6F3 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF79643E21A77F790031E6F3 /* ContentCell.swift */; };
+		FF79644121A78FC60031E6F3 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF79644021A78FC60031E6F3 /* HeaderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FF79643321A77DDB0031E6F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF79643621A77DDB0031E6F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF79643821A77DDB0031E6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF79643E21A77F790031E6F3 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		FF79644021A78FC60031E6F3 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FF79643321A77DDB0031E6F3 /* Assets.xcassets */,
 				FF79643521A77DDB0031E6F3 /* LaunchScreen.storyboard */,
 				FF79643821A77DDB0031E6F3 /* Info.plist */,
+				FF79643E21A77F790031E6F3 /* ContentCell.swift */,
+				FF79644021A78FC60031E6F3 /* HeaderCell.swift */,
 			);
 			path = "MAPD714-F2018-Lesson11";
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF79644121A78FC60031E6F3 /* HeaderCell.swift in Sources */,
+				FF79643F21A77F790031E6F3 /* ContentCell.swift in Sources */,
 				FF79642F21A77DDA0031E6F3 /* ViewController.swift in Sources */,
 				FF79642D21A77DDA0031E6F3 /* AppDelegate.swift in Sources */,
 			);
